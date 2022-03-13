@@ -1,0 +1,59 @@
+body{
+  background: floralwhite;
+  color: green;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+h1{
+  font-family: 'Cookie', cursive;
+  color: darkgray;
+  font-size: 250px;
+}
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: darkslategray;
+  font-weight: lighter;
+  font-size: 25px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 30%), url("https://images.pexels.com/photos/2377463/pexels-photo-2377463.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+#banner h1 {
+  color: floralwhite;
+  font-size: 170px;
+}
+#banner p {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: darkslategrey;
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  color: black;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
